@@ -1,7 +1,11 @@
 import os
 import socket
 from pathlib import Path
+import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    
 from aes_socket_utils import (
     LENGTH_HEADER_SIZE,
     decrypt_aes_cbc,

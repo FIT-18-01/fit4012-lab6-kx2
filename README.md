@@ -16,20 +16,20 @@ Lab này kế thừa ý tưởng từ Lab 3 DES Socket, nhưng nâng cấp theo 
 
 ## Team members
 
-- **Thành viên 1**: TODO_MEMBER_1 - MSSV: TODO_MEMBER_1_ID
-- **Thành viên 2**: TODO_MEMBER_2 - MSSV: TODO_MEMBER_2_ID
+- **Thành viên 1**: Nguyễn Trung Kiên - MSSV: 1871020345
+- **Thành viên 2**: Hoàng Nhật Anh - MSSV: 1871020064
 
 ## Task division
 
-- **Thành viên 1 phụ trách chính**: TODO_ROLE_MEMBER_1
-- **Thành viên 2 phụ trách chính**: TODO_ROLE_MEMBER_2
-- **Phần làm chung**: TODO_SHARED_WORK
+- **Thành viên 1 phụ trách chính**: Thiết kế và triển khai sender.py, receiver.py, AES-CBC, PKCS#7 padding, socket communication và hoàn thiện README
+- **Thành viên 2 phụ trách chính**: Hỗ trợ kiểm tra test case, sample input/output và rà soát log
+- **Phần làm chung**: Threat model, ethics, kiểm tra demo local và hoàn thiện báo cáo
 
 ## Demo roles
 
-- **Demo Sender / kênh khóa / log gửi**: TODO_DEMO_ROLE_1
-- **Demo Receiver / kênh dữ liệu / giải mã**: TODO_DEMO_ROLE_2
-- **Cả hai cùng trả lời threat model và ethics**: TODO_DEMO_ROLE_SHARED
+- **Demo Sender / kênh khóa / log gửi**: Thực hiện demo Sender, gửi key/IV, gửi ciphertext và kiểm tra log gửi
+- **Demo Receiver / kênh dữ liệu / giải mã**: Thực hiện demo Receiver, nhận packet, giải mã dữ liệu và kiểm tra output
+- **Cả hai cùng trả lời threat model và ethics**: Cùng phân tích điểm yếu bảo mật và trả lời phần ethics
 
 ---
 
@@ -200,7 +200,7 @@ CI sẽ kiểm tra:
 - Có test tamper.
 - Có test local sender-receiver.
 - README có thông tin nhóm 2 người.
-- Các file báo cáo không còn `TODO_STUDENT`.
+- Các file báo cáo không còn `TODO`.
 - Có ít nhất 1 file log thật trong `logs/`.
 
 ---
